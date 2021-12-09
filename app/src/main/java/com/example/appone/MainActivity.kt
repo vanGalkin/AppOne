@@ -15,6 +15,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SecondActivity::class.java)
             startActivity(intent)
         }
+        val button1 = findViewById<Button>(R.id.next_button1)
+        button1.setOnClickListener{
+            val intent = Intent(this, ImgPage::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onDestroy() {

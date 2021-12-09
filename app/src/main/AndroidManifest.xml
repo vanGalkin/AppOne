@@ -23,6 +23,11 @@
             android:label="SecondActivity"
             android:parentActivityName=".MainActivity"
             />
+
+        <activity android:name=".ImgPage"
+            android:label="ImgPage"
+            android:parentActivityName=".MainActivity"
+            />
     </application>
 
 </manifest>
