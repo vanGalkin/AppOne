@@ -3,6 +3,7 @@
     package="com.example.appone">
 
     <application
+
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -11,7 +12,8 @@
         android:theme="@style/Theme.AppOne">
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="NAVI Store">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,12 +22,12 @@
         </activity>
 
         <activity android:name=".SecondActivity"
-            android:label="SecondActivity"
+            android:label="LITKOVSKAYA"
             android:parentActivityName=".MainActivity"
             />
 
         <activity android:name=".ImgPage"
-            android:label="ImgPage"
+            android:label="MousePads"
             android:parentActivityName=".MainActivity"
             />
     </application>

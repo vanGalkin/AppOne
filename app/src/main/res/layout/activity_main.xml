@@ -6,21 +6,92 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:gravity="center"
-    >
+    android:gravity="start"
+    android:orientation="vertical">
 
-    <Button
-        android:id="@+id/next_button"
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="page 2"
-        />
-    <Button
-        android:id="@+id/next_button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="page 3"
-        />
+        android:layout_height="109dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="345dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/_5" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/_1" />
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Подробнее"
+            android:background="@color/BTN"
+            android:layout_margin="10dp"
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/_4" />
+        <Button
+            android:id="@+id/next_button1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Подробнее"
+            android:background="@color/BTN"
+            android:layout_margin="10dp"
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/_2" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/_3" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/Gray">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/navi" />
+
+    </FrameLayout>
 
 
 </LinearLayout>
+
+

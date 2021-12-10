@@ -2,6 +2,47 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="start"
+    android:background="@color/Gray"
+    >
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="345dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/_4" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textFontWeight="500"
+        android:textColor="@color/white"
+        android:text="NAVI коврики для мыши OUT OF SPACE"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:textFontWeight="200"
+        android:textColor="@color/white"
+        android:text="Неординарный и смелый дизайн поверхности отлично подойдет к любому игровому сетапу на вашем рабочем столе.
+Оптимальная текстура поверхности подойдет как под динамичный стиль игры, так и для размеренных и точных движений
+
+Края коврика сформированы путем лазерной резки, что предотвратит отслаивание поверхности от основания. А цепкая каучуковая база крепко удерживает игровую поверхность в любой ситуации
+
+Размеры:
+M — 300 х 360 х 4 мм.
+L — 420 х 500 х 4 мм."
+        />
 </LinearLayout>
